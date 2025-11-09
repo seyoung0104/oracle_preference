@@ -1,0 +1,5 @@
+{
+  "raise": ["raise", "hike", "tighten"],
+  "hold": ["hold", "keep", "maintain"],
+  "cut": ["cut", "lower", "ease"]
+}
