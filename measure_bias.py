@@ -13,7 +13,8 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 # ✅ 여기 모델만 바꿔서 쓰면 됨
 MODEL_NAME = os.environ.get(
     "MODEL_NAME",
-    "Qwen/Qwen2.5-0.5B-Instruct" 
+    #"Qwen/Qwen2.5-0.5B-Instruct" 
+    "models/qwen2.5-0.5B-sft-policy" 
     #llama3-8B-instruct 는 id당 허가 필요
 )
 
